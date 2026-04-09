@@ -8,8 +8,8 @@ embedded_instances {
   "  data: \"default_animation: \\\"anim\\\"\\n"
   "material: \\\"/main/wave_background.material\\\"\\n"
   "size {\\n"
-  "  x: 960.0\\n"
-  "  y: 640.0\\n"
+  "  x: 200.0\\n"
+  "  y: 200.0\\n"
   "}\\n"
   "size_mode: SIZE_MODE_MANUAL\\n"
   "textures {\\n"
@@ -17,6 +17,10 @@ embedded_instances {
   "  texture: \\\"/builtins/graphics/particle_blob.tilesource\\\"\\n"
   "}\\n"
   "\"\n"
+  "  position {\n"
+  "    x: -296.0\n"
+  "    y: 162.0\n"
+  "  }\n"
   "}\n"
   ""
 }
@@ -35,5 +39,139 @@ embedded_instances {
   ""
   position {
     z: 123.0
+  }
+}
+embedded_instances {
+  id: "wave_background_2"
+  data: "embedded_components {\n"
+  "  id: \"sprite\"\n"
+  "  type: \"sprite\"\n"
+  "  data: \"default_animation: \\\"anim\\\"\\n"
+  "material: \\\"/main/wave_background_2.material\\\"\\n"
+  "size {\\n"
+  "  x: 200.0\\n"
+  "  y: 200.0\\n"
+  "}\\n"
+  "size_mode: SIZE_MODE_MANUAL\\n"
+  "textures {\\n"
+  "  sampler: \\\"texture_sampler\\\"\\n"
+  "  texture: \\\"/builtins/graphics/particle_blob.tilesource\\\"\\n"
+  "}\\n"
+  "\"\n"
+  "  position {\n"
+  "    x: -3.0\n"
+  "    y: 162.0\n"
+  "  }\n"
+  "}\n"
+  ""
+}
+embedded_instances {
+  id: "wave_background_3"
+  data: "embedded_components {\n"
+  "  id: \"sprite\"\n"
+  "  type: \"sprite\"\n"
+  "  data: \"default_animation: \\\"anim\\\"\\n"
+  "material: \\\"/main/wave_background_3.material\\\"\\n"
+  "size {\\n"
+  "  x: 200.0\\n"
+  "  y: 200.0\\n"
+  "}\\n"
+  "size_mode: SIZE_MODE_MANUAL\\n"
+  "textures {\\n"
+  "  sampler: \\\"texture_sampler\\\"\\n"
+  "  texture: \\\"/builtins/graphics/particle_blob.tilesource\\\"\\n"
+  "}\\n"
+  "\"\n"
+  "  position {\n"
+  "    x: -3.0\n"
+  "    y: 162.0\n"
+  "  }\n"
+  "}\n"
+  ""
+  position {
+    x: 286.0
+  }
+}
+embedded_instances {
+  id: "wave_background_4"
+  data: "embedded_components {\n"
+  "  id: \"sprite\"\n"
+  "  type: \"sprite\"\n"
+  "  data: \"default_animation: \\\"anim\\\"\\n"
+  "material: \\\"/main/wave_background_4.material\\\"\\n"
+  "size {\\n"
+  "  x: 200.0\\n"
+  "  y: 200.0\\n"
+  "}\\n"
+  "size_mode: SIZE_MODE_MANUAL\\n"
+  "textures {\\n"
+  "  sampler: \\\"texture_sampler\\\"\\n"
+  "  texture: \\\"/builtins/graphics/particle_blob.tilesource\\\"\\n"
+  "}\\n"
+  "\"\n"
+  "  position {\n"
+  "    x: -3.0\n"
+  "    y: 162.0\n"
+  "  }\n"
+  "}\n"
+  ""
+  position {
+    x: 286.0
+    y: -307.0
+  }
+}
+embedded_instances {
+  id: "wave_background_5"
+  data: "embedded_components {\n"
+  "  id: \"sprite\"\n"
+  "  type: \"sprite\"\n"
+  "  data: \"default_animation: \\\"anim\\\"\\n"
+  "material: \\\"/main/wave_background_5.material\\\"\\n"
+  "size {\\n"
+  "  x: 200.0\\n"
+  "  y: 200.0\\n"
+  "}\\n"
+  "size_mode: SIZE_MODE_MANUAL\\n"
+  "textures {\\n"
+  "  sampler: \\\"texture_sampler\\\"\\n"
+  "  texture: \\\"/builtins/graphics/particle_blob.tilesource\\\"\\n"
+  "}\\n"
+  "\"\n"
+  "  position {\n"
+  "    x: -3.0\n"
+  "    y: 162.0\n"
+  "  }\n"
+  "}\n"
+  ""
+  position {
+    y: -307.0
+  }
+}
+embedded_instances {
+  id: "wave_background_6"
+  data: "embedded_components {\n"
+  "  id: \"sprite\"\n"
+  "  type: \"sprite\"\n"
+  "  data: \"default_animation: \\\"anim\\\"\\n"
+  "material: \\\"/main/zigzag_rect.material\\\"\\n"
+  "size {\\n"
+  "  x: 200.0\\n"
+  "  y: 200.0\\n"
+  "}\\n"
+  "size_mode: SIZE_MODE_MANUAL\\n"
+  "textures {\\n"
+  "  sampler: \\\"texture_sampler\\\"\\n"
+  "  texture: \\\"/builtins/graphics/particle_blob.tilesource\\\"\\n"
+  "}\\n"
+  "\"\n"
+  "  position {\n"
+  "    x: -302.0\n"
+  "    y: 21.0\n"
+  "  }\n"
+  "}\n"
+  ""
+  position {
+    x: 4.0
+    y: -162.0
   }
 }

@@ -1,0 +1,21 @@
+// zigzag_rect.vp
+
+// 输入：来自引擎的顶点数据
+in highp vec4 position;     // 顶点位置
+in mediump vec2 texcoord0;  // 纹理坐标 (UV)
+
+// 输出：传递给片段着色器的数据
+out mediump vec2 var_texcoord0;
+
+// 引擎内置的矩阵，用于坐标变换
+uniform vs_uniforms {
+	highp mat4 view_proj;
+};
+
+void main()
+{
+	// 计算顶点在屏幕上的最终位置
+	gl_Position = view_proj * vec4(position.xyz, 1.0);
+	// 将UV坐标原样传递给片段着色器
+	var_texcoord0 = texcoord0;
+}
